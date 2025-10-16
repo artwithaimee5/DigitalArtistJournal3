@@ -1,0 +1,22 @@
+## Encoding strategies and editorial policies
+
+The following was referenced when creating a taxonomy. A separate file is desired for the taxonomy, 
+which can be used to update as the project grows. While this is not an explicit published taxonomy, 
+it is a way to assign meaning to items in the text that have meaning established elsewhere, which can 
+be searched on at a later time. 
+
+Categories used in this project thus far (note that some categories can be nested under each other, 
+such as Lacan, and Bowlby under psychology):  
+bio: Physiological processes which result in energy, fatigue, health, illness
+dream: Related to dreaming, dream states, sleep 
+immanence: Related to Gilles Deleuze's theory of Domain of Immanence
+imaginarymachines: Related to a catalog of machine drawings and paintings that exist in the artist notebooks
+psychology: Psychological concepts such as attachment theory 
+consciousness: unconscious, subconscious, conscious layer
+Lacan: Jacques Lacan, French psychoanalyst and psychiatrist
+Zizek: Slavoj Žižek, philosopher primarly from lecture material 
+Bowlby: John Bowlby, British psychiatrist and psychoanalyst, child development and attachment theory 
+desire: related to the arc of desire and death drive
+
+In an effort to organize the sections of the page the following types have been used under <encodingDesc>: 
+topchunk; leftchunk; centerchunk; rightchunk; bottomchunk
