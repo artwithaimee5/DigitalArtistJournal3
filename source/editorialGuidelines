@@ -3,20 +3,36 @@
 The following was referenced when creating a taxonomy. A separate file is desired for the taxonomy, 
 which can be used to update as the project grows. While this is not an explicit published taxonomy, 
 it is a way to assign meaning to items in the text that have meaning established elsewhere, which can 
-be searched on at a later time. 
+be searched on at a later time. Notice Nested Items. This layout should be updated to reflect a more readable
+structure.
 
-Categories used in this project thus far (note that some categories can be nested under each other, 
-such as Lacan, and Bowlby under psychology):  
-bio: Physiological processes which result in energy, fatigue, health, illness
-dream: Related to dreaming, dream states, sleep 
-immanence: Related to Gilles Deleuze's theory of Domain of Immanence
-imaginarymachines: Related to a catalog of machine drawings and paintings that exist in the artist notebooks
-psychology: Psychological concepts such as attachment theory 
-consciousness: unconscious, subconscious, conscious layer
-Lacan: Jacques Lacan, French psychoanalyst and psychiatrist
-Zizek: Slavoj Žižek, philosopher primarly from lecture material 
-Bowlby: John Bowlby, British psychiatrist and psychoanalyst, child development and attachment theory 
-desire: related to the arc of desire and death drive
-
-In an effort to organize the sections of the page the following types have been used under <encodingDesc>: 
-topchunk; leftchunk; centerchunk; rightchunk; bottomchunk
+                    <category xml:id="ph"><catDesc>philosophy</catDesc>
+                        <category xml:id="Deleuze"><catDesc>Gilles Deleuze</catDesc></category>
+                        <category xml:id="immanence"><catDesc>concept: GD Domain of Immanence </catDesc></category>
+                        <category xml:id="Zizek"><catDesc>Slavoj Žižek, philosopher primarily from lecture material</catDesc></category>
+                         <category xml:id="desire"><catDesc>concept: desire</catDesc></category>
+                     </category>                
+                     <category xml:id="ps"><catDesc>psychology</catDesc>
+                        <category xml:id="bowlby"><catDesc>John Bowlby, British psychiatrist and psychoanalyst, child development and attachment theory</catDesc></category>
+                         <category xml:id="growth"><catDesc>concept: growth, post-traumatic</catDesc></category>
+                         <category xml:id="Lacan"><catDesc>Jacques Lacan, French psychoanalyst and psychiatrist </catDesc></category>
+                        <category xml:id="consciousness"><catDesc>concept: unconscious, subconscious, conscious layer </catDesc></category>
+                        <category xml:id="dream"><catDesc>concept: dream, dreaming </catDesc></category>
+                     </category>
+                        <category xml:id="bio"><catDesc>biology and physiology</catDesc>
+                            <category xml:id="sleep"><catDesc>sleep processes</catDesc></category>
+                            <category xml:id="sauna"><catDesc>sauna and health</catDesc></category>
+                            <category xml:id="neuralplasticity"><catDesc> brain's ability to change and adapt in response to learning, experience, or injury</catDesc></category>
+                            <category xml:id="mirrorneurons"><catDesc>neuroal mimicing behavior, in psychology explored by Daniel Siegel</catDesc></category>
+                            <category xml:id="biomarker"><catDesc>biological measurements that can be tracked for analysis</catDesc></category>
+                        </category>
+                        <category xml:id="art"><catDesc>biology and physiology</catDesc>
+                            <category xml:id="imaginarymachines"><catDesc>function, sketches, drawings of imaginary machines</catDesc></category>
+                            <category xml:id="handdrawn"><catDesc>illustrations or sketches that are handdrawn</catDesc></category>
+                            <category xml:id="detail"><catDesc>specific detailed attention, such as a diagram</catDesc></category>
+                        </category>
+                        <category xml:id="elements"><catDesc>journalmarkers</catDesc>                                                                                            
+                            <category xml:id="date"><catDesc>journal entry date</catDesc></category>
+                            <category xml:id="title"><catDesc>journal entry title</catDesc></category> 
+                            <category xml:id="journalpageGraphic"><catDesc>refernece to the encoded image</catDesc></category> 
+                        </category>
