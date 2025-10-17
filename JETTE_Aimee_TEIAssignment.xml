@@ -1,208 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
-        <titleStmt>
-        <title>Digital Artist Journal Project</title>
-        <author>Aimee Jette</author>
-        </titleStmt>
-        <editionStmt>
-            <edition>Digital edition, version 1.0</edition>
-            <respStmt>
-                <name xml:id="AJ">Aimee Jette</name>
-                <resp>Encoded by</resp>
-            </respStmt>
-        </editionStmt>
-
-        <publicationStmt>
-          <publisher>Aimee Jette</publisher>
-          <address>
-                <addrLine>232 Elizabeth St</addrLine>
-                <addrLine>Apartment 5E</addrLine>
-                <addrLine>New York, NY 10012</addrLine>
-                <addrLine>USA</addrLine>
-            </address>
-            <date>2025-10-15</date>
-            <availability>
-                <p>This electronic edition is published for personal purposes only and should not be shared without permission of it creator.</p> 
-            </availability>
-        </publicationStmt>
-
-
-        <sourceDesc>
-            <bibl>
-                <author>
-                    <persName>
-                    <forename>Aimee</forename>
-                    <surname>Jette</surname>
-                    </persName>
-                </author>
-        
-                <editor>
-                    <persName>
-                    <forename>Aimee</forename>
-                    <surname>Jette</surname>
-                    </persName>
-                </editor>
-                <title>Artist Journal 3</title>
-                <pubPlace>New York, NY</pubPlace>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Artist Journal Project</title>
+                <author>Aimee Jette</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition, version 1.0</edition>
+                <respStmt>
+                    <name xml:id="AJ">Aimee Jette</name>
+                    <resp>Encoded by</resp>
+                </respStmt>
+            </editionStmt>           
+            <publicationStmt>
+                <publisher>Aimee Jette</publisher>
+                <address>
+                    <addrLine>232 Elizabeth St</addrLine>
+                    <addrLine>Apartment 5E</addrLine>
+                    <addrLine>New York, NY 10012</addrLine>
+                    <addrLine>USA</addrLine>
+                </address>
+                <date>2025-10-15</date>
+                <availability>
+                    <p>This electronic edition is published for personal purposes only and should not be shared without permission of it creator.</p> 
+                </availability>
+            </publicationStmt>            
+            <sourceDesc>
+                <bibl>
+                    <author>
+                        <persName>
+                            <forename>Aimee</forename>
+                            <surname>Jette</surname>
+                        </persName>
+                    </author>
+                    <editor>
+                        <persName>
+                            <forename>Aimee</forename>
+                            <surname>Jette</surname>
+                        </persName>
+                    </editor>
+                    <title>Artist Journal 3</title>
+                    <pubPlace>New York, NY</pubPlace>
+                    <date>2025</date>
+                </bibl>
+            </sourceDesc>
+            
+        </fileDesc>       
+        <encodingDesc>
+            <projectDesc><p>Artist journal pages collected for preservation and to find themes for book. This digital version is an encoded transcription of a pen and ink sketchbook page (page 3), containing handwritten text blocks, questions, and original illustrations.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Incorrect use of punctuation and proper nouns will be corrected.</p>
+                </correction>
+                <p>The following customizations have been made to the TEI encoding:</p>
+                <p>
+                    <list>
+                        <item>The <gi>div</gi> element with the attribute <att>type</att> set to "top" is used contain elements in the top section of the page.</item>
+                        <item>The <gi>div</gi> element with the attribute <att>type</att> set to "left" is used contain elements in the left section of the page.</item>
+                        <item>The <gi>div</gi> element with the attribute <att>type</att> set to "center" is used contain elements in the center section of the page.</item>
+                        <item>The <gi>div</gi> element with the attribute <att>type</att> set to "right" is used contain elements in the right section of the page.</item>
+                        <item>The <gi>div</gi> element with the attribute <att>type</att> set to "bottom" is used contain elements in the bottom section of the page.</item>
+                    </list>
+                </p>
+                <p>This transcription encodes both textual and visual elements of the original sketchbook page, preserving layout information through the use of zones and 
+                    facsimile. This digitial work aimes to accurately represent the journal page with illustrations while prioritizing the content of the handwritten text.</p>                 
+                <!-- Oxygen editor says classDecl doesn't belong here; per https://tei-c.org/release/doc/tei-p5-doc/en/html//ref-classDecl.html it does -->
+                <!-- Ultimately @source attribute should be added to link to externally managed file -->
+                <classDecl>
+                    <taxonomy xml:id="journal3">
+                     <category xml:id="ph"><catDesc>philosophy</catDesc>
+                        <category xml:id="Deleuze"><catDesc>Gilles Deleuze</catDesc></category>
+                        <category xml:id="immanence"><catDesc>concept: GD Domain of Immanence </catDesc></category>
+                        <category xml:id="Zizek"><catDesc>Slavoj Žižek, philosopher primarily from lecture material</catDesc></category>
+                         <category xml:id="desire"><catDesc>concept: desire</catDesc></category>
+                     </category>                
+                     <category xml:id="ps"><catDesc>psychology</catDesc>
+                        <category xml:id="bowlby"><catDesc>John Bowlby, British psychiatrist and psychoanalyst, child development and attachment theory</catDesc></category>
+                         <category xml:id="growth"><catDesc>concept: growth, post-traumatic</catDesc></category>
+                         <category xml:id="Lacan"><catDesc>Jacques Lacan, French psychoanalyst and psychiatrist </catDesc></category>
+                        <category xml:id="consciousness"><catDesc>concept: unconscious, subconscious, conscious layer </catDesc></category>
+                        <category xml:id="dream"><catDesc>concept: dream, dreaming </catDesc></category>
+                     </category>
+                        <category xml:id="bio"><catDesc>biology and physiology</catDesc>
+                            <category xml:id="sleep"><catDesc>sleep processes</catDesc></category>
+                            <category xml:id="sauna"><catDesc>sauna and health</catDesc></category>
+                            <category xml:id="neuralplasticity"><catDesc> brain's ability to change and adapt in response to learning, experience, or injury</catDesc></category>
+                            <category xml:id="mirrorneurons"><catDesc>neuroal mimicing behavior, in psychology explored by Daniel Siegel</catDesc></category>
+                            <category xml:id="biomarker"><catDesc>biological measurements that can be tracked for analysis</catDesc></category>
+                        </category>
+                        <category xml:id="art"><catDesc>biology and physiology</catDesc>
+                            <category xml:id="imaginarymachines"><catDesc>function, sketches, drawings of imaginary machines</catDesc></category>
+                            <category xml:id="handdrawn"><catDesc>illustrations or sketches that are handdrawn</catDesc></category>
+                            <category xml:id="detail"><catDesc>specific detailed attention, such as a diagram</catDesc></category>
+                        </category>
+                        <category xml:id="elements"><catDesc>journalmarkers</catDesc>                                                                                            
+                            <category xml:id="date"><catDesc>journal entry date</catDesc></category>
+                            <category xml:id="title"><catDesc>journal entry title</catDesc></category> 
+                            <category xml:id="journalpageGraphic"><catDesc>refernece to the encoded image</catDesc></category> 
+                        </category>
+                    </taxonomy>  
+                </classDecl>               
+            </editorialDecl>
+        </encodingDesc>        
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <creation>
                 <date>2025</date>
-            </bibl>
-        </sourceDesc>
-
-    </fileDesc>
- 
-
-    <encodingDesc>
-        <projectDesc><p>Artist journal pages collected for preservation and to find themes for book. This digital version is an encoded transcription of a pen and ink sketchbook page (page 3), containing handwritten text blocks, questions, and original illustrations.</p>
-        </projectDesc>
-        <editorialDecl>
-            <correction>
-                <p>Incorrect use of punctuation and proper nouns will be corrected.</p>
-            </correction>
-            <p>The following customizations have been made to the TEI encoding:</p>
-            <p>
-                <list>
-                    <item>The <gi>div</gi> element with the attribute <att>type</att> set to "topchunk" is used contain elements in the top section of the page.</item>
-                    <item>The <gi>div</gi> element with the attribute <att>type</att> set to "leftchunk" is used contain elements in the left section of the page.</item>
-                    <item>The <gi>div</gi> element with the attribute <att>type</att> set to "centerchunk" is used contain elements in the center section of the page.</item>
-                    <item>The <gi>div</gi> element with the attribute <att>type</att> set to "rightchunk" is used contain elements in the right section of the page.</item>
-                    <item>The <gi>div</gi> element with the attribute <att>type</att> set to "bottomchunk" is used contain elements in the bottom section of the page.</item>
-                </list>
-            </p>
-            <p>This transcription encodes both textual and visual elements of the original sketchbook page, preserving layout information through the use of zones and 
-                facsimile. This digitial work aimes to accurately represent the journal page with illustrations while prioritizing the content of the handwritten text.</p>   
-            
-            <classDecl>
-            <taxonomy xml:id="topics">
-                    <category xml:id="bio">
-                        <catDesc>Physiological processes which result in energy, fatigue, health, illness</catDesc>
-                    </category>
-                    <category xml:id="dream">
-                        <catDesc>Related to dreaming, dream states, sleep</catDesc>
-                    </category>
-                    <category xml:id="immanence">
-                        <catDesc>Related to Gilles Deleuze's theory of Domain of Immanence</catDesc>
-                    </category>
-                    <category xml:id="imaginarymachines">
-                        <catDesc>Related to a catalog of machine drawings and paintings that exist in the artist notebooks</catDesc>
-                    </category>
-                    <category xml:id="psychology">
-                        <catDesc>Psychological concepts such as attachment theory</catDesc>
-                    </category>
-                    <category xml:id="consciousness">
-                        <catDesc>Unconscious, subconscious, conscious layers</catDesc>
-                    </category>
-                    <category xml:id="Lacan">
-                        <catDesc>Jacques Lacan, French psychoanalyst and psychiatrist</catDesc>
-                    </category>
-                    <category xml:id="Zizek">
-                        <catDesc>Slavoj Žižek, philosopher primarly from lecture material</catDesc>
-                    </category>
-                    <category xml:id="Bowlby">
-                        <catDesc>John Bowlby, British psychiatrist and psychoanalyst, child development and attachment theory</catDesc>
-                    </category>                 
-                    <category xml:id="desire">
-                        <catDesc>Related to the arc of desire and death drive</catDesc>
-                    </category>
-                </taxonomy>  
-                </classDecl>
-            
-        </editorialDecl>
-    </encodingDesc>
-
-    <profileDesc>
-        <langUsage>
-            <language ident="en">English</language>
-        </langUsage>
-        <creation>
-            <date>2025</date>
-            <placeName>New York, NY, and Connecticut, USA</placeName>
-        </creation>
-       
-    </profileDesc>
-    <revisionDesc>
-        <change when="2025-10-15" who="#AJ">updated header</change>
-    </revisionDesc>
-</teiHeader>
-    
-<text>
-    <body>
-
-        <p ana="journal" xml:id="page3-text">Sleep and Creativity</p>
-        
-        <p ana="date" xml:id="p3-date">11-11-24</p>
-        
-        <div type="topchunk"><p ana="#bio #immanence" xml:id="p3-toptext">CP alert: Ideas about dream/sleep + creativity I want to create enchanged inner 
-                    worlds to express the images I get in side when I wake. Where does thie begin? Where do ideas come from? What 
-                    has to be in play / in order to allow ideas to transcend?</p></div>
-            
-        <div type="leftchunk"><p ana="#desire" xml:id="p3-leftnotes">Who cares? Why write about this? When we deconstruct an idea - its like we allow a 
-                    thousand tiny electrons to unfurl....and new energy is created.</p>     
-        
-            <figure ana="#growth" xml:id="illustration1">
-                <head>Growth of Idea Graphic</head>
-                <graphic 
-                    url="image/plant.png" 
-                    mimeType="image/png" 
-                    width="467px" 
-                    scale="1.0" 
-                    rend="inline left" 
-                    ana="#handdrawn #detail"/>
-                <figDesc>Technical pen and watercolor image of a snakeplant growing with grass, blue sky and framed in a double box. Either side of the plant extend outside, breaking the spacial box.</figDesc>
-            </figure>
-            
-        </div>
-        
-        
-        <div type="centerchunk"><p ana="#consciousness #Zizek" xml:id="p3-centernotes1">
-                <emph>Manifest content</emph><lb/>Tends to rely upon an obsession with the odd.<lb/>Made up of subconscious content<lb/>Contains conscious content<lb/>
-                Check Zizek + Lacan</p>
-        
-        
-        <p ana="#immanence #philosophy" xml:id="p3-centernotes2"><emph>Domain of Immanence</emph> Deleuze - the space where something / ideas reside before becoming real of transcending.</p>te
-        </div>
-
-        <div type="rightchunk">
-        <p ana="#bio" xml:id="p3-questions">Questions: Why do some people create late at night with little sleep? Creating during insomnia why are some afraid to create past dark?</p>
-        
-        <p ana="#psychology #Bowlby" xml:id="p3-rightnotes">Your personal history + early attachment plays into rhythms, safety, ability to create.</p>
-        
-            <figure ana="#immanence #imaginarymachines" xml:id="p3-illustration2">
-                <head>Imaginary machines Graphic</head>
-                <graphic
-                    url="image/p3-machine.png" 
-                    mimeType="image/png" 
-                    width="813px" 
-                    scale="1.0" 
-                    rend="inline center" 
-                    ana="#handdrawn #detail"/>
-                <figDesc>Pen and watercolor image of a machine with water, on three legs, with a clamp with 6 cylinders, 
-                    a vertical rod and handle, and a hose that swoops down to the left, cut off. The background colors are 
-                    a mixture of quinacridone red and cadmium yellow watercolor. The machine is drawn using black technical pen.</figDesc>
-            </figure>
-            
-            <figure ana="#immanence" xml:id="p3-illustration3">
-                <head>Traveling Idea Graphic</head>
-                <graphic
-                    url="image/p3-immanence.png" 
-                    mimeType="image/png" 
-                    width="419px" 
-                    scale="1.0" 
-                    rend="inline right" 
-                    ana="#handdrawn #detail"/>
-                <figDesc>Using technical pen, an image of a box with rounded corners, and "Creative Sphere" in the top half, 
-                    enciricled by a broken dashed line. There are two diagonal dashed lines in the bottom right quadrant, with 
-                    a small circle in the bottom right corner. There appears to be three ink marks connecting the "creative sphere" 
-                    with the two diagonal lines. Outside of the image on the bottom right, are the words "domain of immanence" a Deleuzian term.</figDesc>
-            </figure>
-        </div>
-           
-           <div type="bottomchunk">
-            <p ana="consciousness" xml:id="p3-basetext">Unconscious &#8594;Latent dream content &#8594; Manifest dream content &#8592; conscious&#8226;<lb/>
-             Sleep is the Biological function that allows for this process to <choice><orig>unfou</orig><reg>unfold</reg></choice><lb/>
-             What are the other functions that support creative process?</p>
-           </div>
-    </body>
-</text>
+                <placeName>New York, NY, and Connecticut, USA</placeName>
+            </creation>           
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-10-16" who="#AJ">reorganized taxonomy</change>
+            <change when="2025-10-16" who="#AJ">changed divs around to nest properly</change>
+            <change when="2025-10-15" who="#AJ">updated header</change>
+        </revisionDesc>
+    </teiHeader>  
+    <text>
+        <body>
+          <figure ana="#journalpageGraphic">
+                <graphic url="image/journalpage3.jpg"/>
+                <figDesc>Journal Page 3</figDesc>
+         </figure>
+         <p ana="#sleep">Sleep and Creativity</p>           
+         <p ana="#date">11-11-24</p>  
+         <div type="top"><p ana="#bio #immanence"><hi>CP alert:</hi> Ideas about dream/sleep + creativity I want to create enchanged inner worlds to express the images I get in side when I wake. Where does thie begin? Where do ideas come from? What has to be in play / in order to allow ideas to transcend?</p></div>           
+         <div type="left"><p ana="#desire">Who cares? Why write about this? When we deconstruct an idea - its like we allow a thousand tiny electrons to unfurl....and new energy is created.</p>                    
+             <figure ana="#growth">
+                 <head>Growth of Idea Graphic</head>
+                 <graphic 
+                     url="image/plant.png" 
+                     mimeType="image/png" 
+                     width="467px" 
+                     scale="1.0" 
+                     rend="inline left" 
+                     ana="#handdrawn #detail"/>
+                 <figDesc>Technical pen and watercolor image of a snakeplant growing with grass, blue sky and framed in a double box. Either side of the plant extend outside, breaking the spacial box.</figDesc>
+             </figure>
+         </div>            
+         <div type="center"><p ana="#consciousness #Zizek"><hi>Manifest content</hi>Tends to rely upon an obsession with the odd. Made up of subconscious content Contains conscious content Check Zizek + Lacan</p>               
+             <p ana="#immanence #ph"><emph>Domain of Immanence</emph> Deleuze - the space where something / ideas reside before becoming real of transcending.</p>
+         </div>            
+         <div type="right">
+             <p ana="#bio">Questions: Why do some people create late at night with little sleep? Creating during insomnia why are some afraid to create past dark?</p>               
+             <p ana="#ps #Bowlby">Your personal history + early attachment plays into rhythms, safety, ability to create.</p>               
+             <figure ana="#immanence #imaginarymachines">
+                 <head>Imaginary machines Graphic</head>
+                 <graphic
+                     url="image/p3-machine.png" 
+                     mimeType="image/png" 
+                     width="813px" 
+                     scale="1.0" 
+                     rend="inline center" 
+                     ana="#handdrawn #detail"/>
+                 <figDesc>Pen and watercolor image of a machine with water, on three legs, with a clamp with 6 cylinders, a vertical rod and handle, and a hose that swoops down to the left, cut off. The background colors are a mixture of quinacridone red and cadmium yellow watercolor. The machine is drawn using black technical pen.</figDesc>
+             </figure>                
+             <figure ana="#immanence">
+                 <head>Traveling Idea Graphic</head>
+                 <graphic
+                     url="image/p3-immanence.png" 
+                     mimeType="image/png" 
+                     width="419px" 
+                     scale="1.0" 
+                     rend="inline right" 
+                     ana="#handdrawn #detail"/>
+                 <figDesc>Using technical pen, an image of a box with rounded corners, and "Creative Sphere" in the top half, enciricled by a broken dashed line. There are two diagonal dashed lines in the bottom right quadrant, with a small circle in the bottom right corner. There appears to be three ink marks connecting the "creative sphere" with the two diagonal lines. Outside of the image on the bottom right, are the words "domain of immanence" a Deleuzian term.</figDesc>
+             </figure>
+         </div>           
+         <div type="bottom">
+             <p ana="#consciousness">Unconscious &#8594;Latent dream content &#8594; Manifest dream content &#8592; conscious&#8226; Sleep is the Biological function that allows for this process to <choice><orig>unfou</orig><reg>unfold</reg></choice>What are the other functions that support creative process?</p>
+         </div>
+     </body>
+     </text>
 </TEI>
